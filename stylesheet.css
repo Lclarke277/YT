@@ -6,35 +6,26 @@ html, body {
     overflow: hidden;
 }
 
-div#controls {
-    width: 100px;
-    position: fixed;
-    right: 10px;
-    top: 50px;  
+.nav_button {
+    border-radius: 3px;
+    font-size: 18px;
 }
 
-div#songs {
-    background-color: white;
-    width: 200px;
+div#nav {
     position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+#add_form {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+div#song_list {
+    position: fixed;
+    background-color: white;
     right: 10px;
     top: 50px;
-}
-
-.control_buttons {
-    display: block;
-    width: 100px;
-    cursor: pointer;
-}
-
-.song_buttons {
-    width: 200px;
-}
-
-div#song_button {
-    background-color: white;
-    width: 200px;
-    position: fixed;
-    right: 10px;
-    top: 0px; 
 }
